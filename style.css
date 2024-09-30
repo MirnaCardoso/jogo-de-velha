@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #c0bbe0;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 40px auto;
+    background-color: #c0bbe0;
+}
+
+.celula {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.celula:hover {
+    background-color: #ccc;
+}
+
+.celula.x {
+    background-color: #ff69b4;
+}
+
+.celula.o {
+    background-color: #66ccff;
+}
